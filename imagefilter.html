@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+<title>Image Filters</title>
+<meta name='viewport' content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="imagefilter.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script type="text/javascript" src="imagefilter.js"></script>
+<script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</head>
+
+
+<body>
+
+<div class="header">
+  <h1>Image Filter</h1>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Blog</a>
+  <a href="#" class="right">Contact us</a>
+</div>
+<div class="container">
+<div class="can">
+<canvas id="can" class="col-xs-11 col-sm-11 col-md-11 col-lg-5">
+</canvas>
+</div>
+
+<div class="upload">
+<input type="file" onchange="upload()" id="finput">
+</div>
+
+<div class="btn-group">
+<input type="button" value="Rainbow" onclick="rainbow()">
+<input type="button" value="Turn Gray" onclick="turngray()">
+<input type="button" value="Back to normal" onclick="upload()">
+</div>
+
+<div class="can">
+<canvas id="can1" class="col-xs-11 col-sm-11 col-md-11 col-lg-5"></canvas>
+<canvas id="can2" class="col-xs-11 col-sm-11 col-md-11 col-lg-5"></canvas>
+</div>
+
+<div class="upload">
+<input type="file" onchange="upload1()" id="finput1">
+<input type="file" onchange="upload2()" id="finput2">
+</div>
+
+<div class="btn-group">
+<input type="button" value="Change Background" onclick="greenscreen()">
+</div>
+</div>
+<div class="footer">
+  <h2>Thanks for visiting the site.</h2>
+</div>
+
+</body>
+
+
+</html>

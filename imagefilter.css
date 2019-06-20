@@ -1,0 +1,91 @@
+#can{
+	margin-top:15px;
+	border:1px solid #c3c3c3;/*making canvas visible*/
+	
+}
+#can1{
+	margin-top:15px;
+	border:1px solid #c3c3c3;/*making canvas visible*/
+}
+#can2{
+	margin-top:15px;
+	border:1px solid #c3c3c3;/*making canvas visible*/
+}
+h1{
+	text-align:center;
+}
+.navbar {
+	margin-top:15px;
+  overflow: hidden; /* Hide overflow */
+  background-color: #000000; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+   /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #404040; /* Grey background color */
+  font-size:120%;
+  color: white;
+}
+.header {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+  color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
+.footer {
+	margin-top:15px;
+  color:white;
+  text-align: center; /* Center text*/
+  background: black; /* Grey background */
+}
+.container{
+	text-align:center;
+}
+
+.btn-group input[type=button]{
+ margin-top:15px;
+  background-color: #1abc9c; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  margin-left:1px;
+  margin-right:1px;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group input[type=button]:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group input[type=button]:hover {
+  background-color: #0c5a4a;
+}
