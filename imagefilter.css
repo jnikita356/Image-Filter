@@ -1,3 +1,4 @@
+
 #can{
 	margin-top:15px;
 	border:1px solid #c3c3c3;/*making canvas visible*/
@@ -22,6 +23,7 @@ h1{
 
 /* Style the navigation bar links */
 .navbar a {
+	
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
@@ -42,10 +44,10 @@ h1{
   color: white;
 }
 .header {
-  padding: 80px; /* some padding */
   text-align: center; /* center the text */
-  background: #1abc9c; /* green background */
-  color: white; /* white text color */
+  }
+img{
+	width:100%;
 }
 
 /* Increase the font size of the <h1> element */
@@ -53,10 +55,11 @@ h1{
   font-size: 40px;
 }
 .footer {
-	margin-top:15px;
+ bottom:0px;
+ left:0px;
+  margin-top:15px;
   color:white;
-  text-align: center; /* Center text*/
-  background: black; /* Grey background */
+  background: black; /* Black background */
 }
 .container{
 	text-align:center;
@@ -67,7 +70,7 @@ h1{
   background-color: #1abc9c; /* Green background */
   border: 1px solid green; /* Green border */
   color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
+  padding:10px 24px; /* Some padding */
   margin-left:1px;
   margin-right:1px;
   cursor: pointer; /* Pointer/hand icon */
