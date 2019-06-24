@@ -1,7 +1,13 @@
 # Image-Filter
 This is a mini-project created by:
 Nikita Jain
-while completing the coursera course: Programming Foundations with JavaScript, HTML and CSS (https://www.coursera.org/learn/duke-programming-web)
+
+while completing the coursera course: 
+
+-Programming Foundations with JavaScript, HTML and CSS (https://www.coursera.org/learn/duke-programming-web)
+
+-Front-End Web UI Frameworks and Tools: Bootstrap 4 (https://www.coursera.org/learn/bootstrap-4)
+
 This project has filters that you can apply to your images which are created using JavaScript.
 The green screen algorithm will change any green-screen image's background to the background you provided.
 
